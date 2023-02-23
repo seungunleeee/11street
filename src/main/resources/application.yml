@@ -20,3 +20,5 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: 'false'
+# all good all fine
+// all good all fine

@@ -42,3 +42,6 @@ sonny branch
 from sonny~~
 
 git연습2 폴더 에서 작성 , 로컬 브랜치 소니 ---> 리모트 브랜치 소니로..
+
+git연습 2 local 브랜치 kane(origin/sonny 를 pull 한 브랜치)-->>remote sonny로
+git push origin sonny 시도 

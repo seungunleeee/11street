@@ -38,4 +38,5 @@ push 하려하는게 맞는 것 같다.
 rebase (정리용)
 
 Local  main에서 쓴거임 
+이건 억까다.
 

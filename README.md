@@ -112,3 +112,8 @@ readme 만 바뀌었기 때문에 fast-forward merge를 했다고 로그에 찍�
 만약 머지후 push를 바로안하고 무언가를 추가한 후 푸시한다면?
 
 from main 2
+
+![img_12.png](img_12.png)
+로컬 main2에서 remote master에 푸시를 한 후 , 
+로컬 마스터에서 로컬 main2를  merge를 했다.
+위 내용을 쓰고 바로 push를 하면.

@@ -67,4 +67,11 @@ return  user1;
         return null;
     }
 
+
+    @GetMapping("Allfine")
+    public  Promotion YYEaah_Bitch(){
+        System.out.println( );
+        return null;
+    }
+
 }

@@ -97,4 +97,7 @@ git연습 2폴더의 main2 브랜치이다 . remote master브랜치를 pull 했�
 지금 작성한 이 내용들을 현재위치에서 git push origin master 를 한다면??
 예상 -> 로컬 master 브랜치의 커밋을 푸시하려할것이다...
 예상 2 -> 근데 로컬마스터 브랜치의 커밋은 fetch이후에 pull하고 안건드렸으니 up to date라 씨부리지안을까?
-
+![img_10.png](img_10.png)
+그렇다고 한다~ 
+이 결과 글은 로컬 master 브랜치에서 로컬 main2를 merge한 후 
+git push origin master 를 사용해 푸시해 봐야것다 .

@@ -68,3 +68,10 @@ git push origin master를 실행했을 때 로컬 마스터 브랜치에서 push
 여전히 push origin master 를 치면
 local master 브랜치에서 merge 하려는 것 같다.
 왜 local master 만 push origin master 가 될까.. 다른애로 못바꾸나...
+
+
+![img_7.png](img_7.png)
+다른 폴더에서 git clone을 했따 .
+master 브랜치만 있는 상황이다 .
+git checkout -t origin/sonny를 통해 
+로컬 sonny 브랜치도 만들어줬다.

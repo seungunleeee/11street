@@ -1,5 +1,6 @@
 package com.example.demo.domain;
 
+import com.example.demo.customClass.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,6 +21,15 @@ public class Orders {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @ManyToOne
-    @JsonIgnoreProperties
+    //관련된 상품 , 쿠폰이 딸려옴
+    @JsonIgnoreProperties({})
     private Promotion promotion;
+
+    private String address ;
+
+    @Enumerated(EnumType.STRING)
+    private OrderStatus orderStatus;
+    @JsonIgnoreProperties({"enrolleditems"})
+    @ManyToOne
+    private Users users;
 }

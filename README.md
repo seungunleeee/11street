@@ -47,3 +47,10 @@ Local  main에서 쓴거임
 썸띵온유ㅓ마인드??
 
 from alphaasdadasd
+
+
+![img_2.png](img_2.png)
+
+아... ls-remote 에서 자기가 보낼 repo로
+git push origin HEAD:refs/heads/master
+이런 식으로 보내야하는구나.... 미안 git..

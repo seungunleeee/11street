@@ -106,3 +106,8 @@ git push origin master 를 사용해 푸시해 봐야것다 .
 readme 만 바뀌었기 때문에 fast-forward merge를 했다고 로그에 찍힌다,
 
 로컬 마스터 브랜치에서 git push origin master를 해보자
+----
+로컬 마스터 브랜치에서 merge 하자마자 바로  push 하고 ,
+그다음 위의 글을 쓰고서 push 했더니 오류없이 푸시되었다. 
+만약 머지후 push를 바로안하고 무언가를 추가한 후 푸시한다면?
+

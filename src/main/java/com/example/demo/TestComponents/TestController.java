@@ -68,9 +68,9 @@ return  user1;
     }
 
 
-    @GetMapping("Allfine")
-    public  Promotion YYEaah_Bitch(){
-        System.out.println( );
+    @PostMapping("/Allgood")
+    public Promotion allgood(){
+        System.out.println("all good");
         return null;
     }
 

@@ -48,4 +48,10 @@ return  user1;
         return testService.getPromotion(id);
     }
 
+    @GetMapping("testGet")
+    public Promotion testmethod (){
+        System.out.println("It's for tests");
+        return null;
+    }
+
 }

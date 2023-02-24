@@ -111,3 +111,4 @@ readme 만 바뀌었기 때문에 fast-forward merge를 했다고 로그에 찍�
 그다음 위의 글을 쓰고서 push 했더니 오류없이 푸시되었다. 
 만약 머지후 push를 바로안하고 무언가를 추가한 후 푸시한다면?
 
+from main 2

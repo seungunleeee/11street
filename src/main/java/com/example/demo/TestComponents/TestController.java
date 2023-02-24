@@ -47,6 +47,19 @@ return  user1;
         System.out.println(id);
         return testService.getPromotion(id);
     }
+    @GetMapping("/test")
+    public  Promotion testpromotion(){
+        System.out.println( "it's for test ");
+        return null;
+    }
+    @PostMapping("testlogin")
+    public  Promotion testlogin(){
+        System.out.println(" it's test login");
+        return null;
+    }
+
+
+
 
     @GetMapping("testGet")
     public Promotion testmethod (){

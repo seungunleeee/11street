@@ -33,3 +33,8 @@ origin master 브랜치에 push 를 하려하면 local master브랜치의 내용
 push 하려하는게 맞는 것 같다. 
 왜 이러는지.. origin master에 다른 local 브랜치도 push 하려면 우쨰야하나..
 
+
+
+rebase (정리용)
+
+

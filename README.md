@@ -40,3 +40,5 @@ sonny branch
 
 
 from sonny~~
+
+git연습2 폴더 에서 작성 , 로컬 브랜치 소니 ---> 리모트 브랜치 소니로..

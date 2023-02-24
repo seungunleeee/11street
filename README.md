@@ -46,4 +46,4 @@ Local  main에서 쓴거임
 
 썸띵온유ㅓ마인드??
 
-from alpha
+from alphaasdadasd

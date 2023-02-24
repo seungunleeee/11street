@@ -26,3 +26,10 @@ master 브랜치에서 해당내용들을 commit
 내용이 감 근데 master 브랜치에 있는 내용이 간것 같다 . 
 로컬 메인에서 push했는데 왜 로컬 master내용이 갈까..
 
+![img_1.png](img_1.png)
+
+main 에서 push 해도 위와 같은 로그가 뜨는 것을 보니 
+origin master 브랜치에 push 를 하려하면 local master브랜치의 내용을
+push 하려하는게 맞는 것 같다. 
+왜 이러는지.. origin master에 다른 local 브랜치도 push 하려면 우쨰야하나..
+

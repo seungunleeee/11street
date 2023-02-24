@@ -58,3 +58,13 @@ git push origin HEAD:refs/heads/master
 이런 식으로 보내야하는구나.... 미안 git..
 
 이제그냥 git push origin master 하면 main에서 보내질까??
+![img_5.png](img_5.png)
+
+(왜 오류 가 떳는가 ?? -> 로컬 메인 브랜치에서 git push origin HEAD:refs/heads/master 를 사용해
+remote master브랜치에 push를 성공했다.
+git push origin master를 실행했을 때 로컬 마스터 브랜치에서 push를 하려고하는데 
+로컬 master브랜치의 헤드와 remote master브랜치가 가리키는 헤드가 달라서 그런 것 같다 .
+)
+여전히 push origin master 를 치면
+local master 브랜치에서 merge 하려는 것 같다.
+왜 local master 만 push origin master 가 될까.. 다른애로 못바꾸나...

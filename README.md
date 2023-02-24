@@ -52,5 +52,9 @@ from alphaasdadasd
 ![img_2.png](img_2.png)
 
 아... ls-remote 에서 자기가 보낼 repo로
+
 git push origin HEAD:refs/heads/master
+![img_4.png](img_4.png)
 이런 식으로 보내야하는구나.... 미안 git..
+
+이제그냥 git push origin master 하면 main에서 보내질까??

@@ -75,3 +75,26 @@ local master 브랜치에서 merge 하려는 것 같다.
 master 브랜치만 있는 상황이다 .
 git checkout -t origin/sonny를 통해 
 로컬 sonny 브랜치도 만들어줬다.
+
+
+git연습2 폴더 에서 작성 , 로컬 브랜치 소니 ---> 리모트 브랜치 소니로..
+
+git연습 2 local 브랜치 kane(origin/sonny 를 pull 한 브랜치)-->>remote sonny로
+git push origin sonny 시도
+
+![img_2.png](img_2.png)
+여기서도 처음 생성한 로컬 sonny 브랜치에서 push 하려고함.
+
+
+![img_3.png](img_3.png)
+git push origin sonny 또한 로컬 소니 브랜치의 커밋을 푸시하려하기에
+git push origin HEAD:refs/heads/sonny 명령어를 사용해 푸시를 성공했다.
+
+
+![img_8.png](img_8.png)
+git연습 2폴더의 main2 브랜치이다 . remote master브랜치를 pull 했다.
+
+지금 작성한 이 내용들을 현재위치에서 git push origin master 를 한다면??
+예상 -> 로컬 master 브랜치의 커밋을 푸시하려할것이다...
+예상 2 -> 근데 로컬마스터 브랜치의 커밋은 fetch이후에 pull하고 안건드렸으니 up to date라 씨부리지안을까?
+
